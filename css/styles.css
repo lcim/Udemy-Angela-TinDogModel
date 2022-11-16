@@ -1,0 +1,222 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.images {
+  border-radius: 15%;
+}
+
+/* General classes */
+.heading1 {
+  font-size: 3.5rem;
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.heading2 {
+  font-size: 3.2rem;
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.heading3 {
+  font-size: 3.0rem;
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.align-c {
+  text-align: center;
+}
+
+.align-l {
+  text-align: left;
+}
+
+/* #title, #press, #pricing, #cta, #testimonial {
+  background-color: #FF4C68;
+} */
+/* Styling Section with id="title" */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+#title .container-fluid {
+  padding: 3% 15%;
+}
+
+.background-colored {
+  background-color: #FF4C68;
+  color: #FFF;
+}
+
+.background-white {
+  background-color: #FFF;
+}
+
+/* Navigation */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-dark {
+  --bs-navbar-color: rgba(255, 255, 255, 0.7);
+  --bs-navbar-hover-color: rgba(255, 255, 255, 1);
+  /*rgba(255, 76, 104, 1)*/
+  --bs-navbar-toggler-border-color: rgba(255, 255, 255, 1);
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+nav .navbar-brand {
+  font-family: "ubuntu", sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+li[class="nav-item"] {
+  margin: 0 1.1rem;
+}
+
+a[class="nav-link"] {
+  font-family: 'Montserrat';
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.row h1 {
+  line-height: 1.5;
+}
+
+.row h1 span {
+  display: inline-block;
+  font-size: 2rem;
+  line-height: unset;
+  padding-bottom: 3rem;
+}
+
+.cta {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #FFFFFF;
+  padding-right: 10%;
+}
+
+/*
+Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image  */
+/* one can use this img[alt="iphone-mockup"]  to select image with
+or create an image class */
+.title-img {
+  transform: rotate(30deg);
+  /* height: 80%; */
+  width: 60%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+/* Styling ID features'section */
+.fa-icons {
+  color: #FF6D28;
+  padding-bottom: 1rem;
+  / *font-size: 2rem;
+  I styled the icon by giving it fa-4x class */
+}
+
+#features i:hover {
+  color: #FF4C68;
+}
+
+#features .col-lg-4 {
+  padding: 5%;
+}
+
+#features .col-lg-4 p {
+  color: #afafaf;
+}
+
+#features h3 {
+  font-style: 'Ubuntu';
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+/* testimonials section */
+#testimonials {
+  background-color: #EF8172;
+}
+
+#testimonials h2 {
+  line-height: 1.5;
+}
+
+.images-testimonials {
+  border-radius: 50%;
+  margin: 1.2rem;
+  width: 15%;
+}
+
+#press {
+  background-color: #EF8172;
+  padding-bottom: 1rem;
+}
+
+.press-logo {
+  width: 15%;
+  padding: 1.2rem 1.3rem 2rem;
+}
+
+/* Pricing  */
+#pricing .container-fluid {
+  padding: 6% 6%;
+}
+
+#pricing .container-fluid > p:nth-of-type(1) {
+  font-family: "Montserrat";
+  color: #111222;
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+  /* color: #FFF; */
+}
+
+/* Call to Action  */
+#cta h3 {
+  padding-bottom: 2.0rem;
+}
+
+/* Footer section */
+/* #footer [class^="fa-"] {
+} */
+#footer p {
+  font-weight: 100;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+@media (max-width:600px) {
+  #features .row {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media (min-width:601px) and (max-width:992px) {
+  .title-img {
+    transform: rotate(0);
+    display: block;
+    margin: 1rem auto 1rem;
+  }
+
+  .title-body {
+    text-align: center;
+  }
+
+  #features .row {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+}
